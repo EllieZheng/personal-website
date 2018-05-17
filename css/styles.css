@@ -1,0 +1,332 @@
+* {
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, sans-serif; /*"Comic Sans MS", cursive, sans-serif;*/
+}
+/** HEADER **/
+#header-nav {
+ /* border-bottom: 2px steelblue solid;
+  background-color: steelblue;*/
+  background-color:rgba(0, 0, 0, 0.6);
+  /*border-radius: 0;*/
+  border: 0;
+}
+.navbar-hearder {
+	/*padding-bottom: 0; */
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  /*border: 2px lightblue solid;*/
+  font-size: 1.1em;
+  margin-top: 0;
+  margin-bottom: 0;
+  /*background: aliceblue;*/
+}
+#nav-list a {
+  color: aliceblue;
+  text-align: center;
+}
+#nav-list a:hover {
+  background-color:rgba(255, 255, 255, 0.7);
+  /*background: lightsteelblue;*/
+  color: black;
+  border-radius: 2px;
+}
+#nav-list hr {
+  margin-top: 0;
+  margin-bottom: 0;
+  border: 1px lightsteelblue solid;
+}
+#collapsable-nav {
+	/*margin-top: -1px;*/
+	padding-bottom: 0;
+	padding-top: 0;
+	color: black;
+}
+#collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.1em;
+ }
+.navbar-toggle {
+	background: white;
+}
+#head {
+  position: relative;
+}
+#head h1 {
+  font-size: 2.5em;
+  position: absolute;
+  bottom: 20px;
+  right: 10px;
+  color: white;
+  text-shadow: 2px 2px black;
+}
+#head h1 span {
+  font-size: 0.8em;
+}
+#name-logo {
+  text-decoration: none;
+  color:white;
+  position: relative;
+  top: 15px;
+}
+#name-logo span{
+  text-decoration: none;
+  font-size: 1.1em;
+}
+
+/* Body */
+/*body { padding-top: 60px; }*/
+.jumbotron {
+  padding: 10px;
+}
+section .thumbnail {
+  text-decoration: none;
+}
+section .thumbnail:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+.thumb-box {
+}
+.gly-box {
+  text-align: center;
+  font-size: 3em;
+  display: block;
+  position: absolute;
+  top: 25px;
+  width: 100%;
+}
+.bottom {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  text-align: center;
+  font-size: 1.2em;
+}
+#CV-tile {
+  background: url("../image/CV-tile.jpg") no-repeat;
+  background-position: center;
+}
+#CV-tile:hover {  
+  background: url("../image/CV-tile-hover.jpg") no-repeat;
+  background-position: center;
+}
+.tile {
+  position: relative;
+  height: 120px;
+  width: 100%;
+  color: black;  
+  background: url("../image/white-circle.png") no-repeat;;
+  background-position: center;
+}
+#research-tile {
+  background: url("../image/research-tile.jpg") no-repeat;
+}
+#research-tile:hover {  
+  background: url("../image/research-tile-hover.jpg") no-repeat;
+}
+
+#course-tile {
+  background: url("../image/course-tile.jpg") no-repeat;
+  background-position: center;
+}
+#course-tile:hover {  
+  background: url("../image/course-tile-hover.jpg") no-repeat;
+  background-position: center;
+}
+
+#video-tile {
+  background: url("../image/video-tile.jpg") no-repeat;
+  background-position: center;
+}
+#video-tile:hover {  
+  background: url("../image/video-tile-hover.jpg") no-repeat;
+  background-position: center;
+}
+#graphic-tile {
+  background: url("../image/graphic-tile.jpg") no-repeat;
+  background-position: center;
+}
+#graphic-tile:hover {  
+  background: url("../image/graphic-tile-hover.jpg") no-repeat;
+  background-position: center;
+}
+#japanese-tile {
+  background: url("../image/japanese-tile.jpg") no-repeat;
+  background-position: center;
+}
+#japanese-tile:hover {  
+  background: url("../image/japanese-tile-hover.jpg") no-repeat;
+  background-position: center;
+}
+#life-tile {
+  background: url("../image/life-tile.jpg") no-repeat;
+  background-position: center;
+}
+#life-tile:hover {  
+  background: url("../image/life-tile-hover.jpg") no-repeat;
+  background-position: center;
+}
+#app-tile {
+  background: url("../image/app-tile.jpg") no-repeat;
+  background-position: center;
+}
+#app-tile:hover {  
+  background: url("../image/app-tile-hover.jpg") no-repeat;
+  background-position: center;
+}
+#about-tile {
+  background: url("../image/about-tile.jpg") no-repeat;
+  background-position: center;
+}
+#about-tile:hover {  
+  background: url("../image/about-tile-hover.jpg") no-repeat;
+  background-position: center;
+}
+/*
+#index {
+  float: right;
+}*/
+.breadcrumb {
+  font-size: 1.3em;
+}
+.breadcrumb a {
+  color: black;
+}
+.breadcrumb a:hover {
+  color: gray;
+  text-decoration: none;
+}
+.subtitle {
+  font-size: 2em;
+}
+/******* Apps **********/
+blockquote {
+  background-color: #eee;
+}
+.apptitle {
+  position: relative;
+  height: 120px;
+  width: 100%;
+  text-shadow: 3px 3px black;
+  color: white;  
+  font-size: 2em;
+  text-align: center;
+  top: 40px;
+}
+
+#tax-return {
+  background: url("../image/tax_bg2.jpg");
+  background-position: center;
+}
+#head-tax {
+  position: relative;
+}
+#head-tax h1 {
+  font-size: 2.5em;
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: white;
+  text-shadow: 2px 2px black;
+}
+
+.bs-callout {
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid #eee;
+    border-left-width: 5px;
+    border-radius: 3px;
+    /*border-left-color: #ce4844;*/
+}
+.form-horizontal .control-label{
+/* text-align:right; */
+  text-align:left;
+}
+
+.btn-default{
+  font-size: 1.2em;
+}
+/*** Footer ***/
+.footer-panel {
+  margin-top: 20px;
+  padding-top: 15px;
+  padding-bottom: 30px;
+  background-color: #F2F3F4;
+  border-top: 0;
+}
+
+.form-group {
+  font-size: 1.2em;
+}
+
+/************** Media Query ****************/
+.visible-xxs {
+  display: none;
+}
+/********** Extra small devices only **********/
+@media (max-width: 500px) {
+/*	#main-content {
+		padding-left: 20px;
+		padding-right: 20px;
+	}*/
+  #head h1 {
+    bottom: 10px;
+    font-size: 2em;
+  }
+  .navbar-toggle {
+    padding: 6px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+  }
+  #nav-list {
+    background-color:rgba(0, 0, 0, 0.6);
+  }
+  #logo {
+    /*margin-top: -15px;*/
+    height: 40px;
+  }
+  .navbar-header, .navbar{
+    height:40px;
+    min-height: 40px;
+  }
+  .tile {
+    height: 80px;
+    background: url("../image/white-circle-small.png") no-repeat;
+    background-position: center;
+  }
+  .gly-box {
+    top: 15px;
+    font-size: 2em;
+  }
+  .bottom {
+    bottom: 15px;
+    font-size: 1.1em;
+  }
+  .visible-xxs {
+    display: block;
+  }
+  .visible-xs {
+    display: none !important;
+  }
+}
+
+@media (max-width: 400px) {
+  #head h1 {
+    font-size: 1.5em;
+  } 
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 768px) {
+  #head h1 {
+    padding: 5px 10px 10px 10px;
+    border-radius: 5px;
+    background-color:rgba(50, 120, 0, 0.45);
+  }
+}
+

@@ -1,0 +1,74 @@
+[
+	{
+		"name": "Happy China",
+		"location": "durham",
+		"last-visit": 0,
+		"preference": 10
+	}
+	{
+		"name": "Shanghai",
+		"location": "durham",
+		"last-visit": 0,
+		"preference": 10
+	}
+	{
+		"name": "Q-Shack",
+		"location": "durham",
+		"last-visit": 0,
+		"preference": 10
+	}
+	{
+		"name": "Shanghai Dumplings",
+		"location": "chapel-hill",
+		"last-visit": 0,
+		"preference": 10
+	}
+	{
+		"name": "Sushi Love",
+		"location": "erwin",
+		"last-visit": 0,
+		"preference": 10
+	}
+	{
+		"name": "Noodles & Company",
+		"location": "erwin",
+		"last-visit": 0,
+		"preference": 10
+	}
+	{
+		"name": "Friday",
+		"location": "erwin",
+		"last-visit": 0,
+		"preference": 10
+	}
+	{
+		"name": "Chai's",
+		"location": "erwin",
+		"last-visit": 0,
+		"preference": 10
+	}
+	{
+		"name": "Panda Express",
+		"location": "duke",
+		"last-visit": 0,
+		"preference": 10
+	}
+	{
+		"name": "McDonalds",
+		"location": "duke",
+		"last-visit": 0,
+		"preference": 10
+	}
+	{
+		"name": "Loop",
+		"location": "duke",
+		"last-visit": 0,
+		"preference": 10
+	}
+	{
+		"name": "Chick-fil-A",
+		"location": "duke",
+		"last-visit": 0,
+		"preference": 10
+	}
+]

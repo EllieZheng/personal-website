@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Welcome | Lianjun Zheng (Ellie)</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+<body>
+  <header>
+    <nav id="header-nav" class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+           <a class="navbar-brand" href="../index.html">
+              <img id="logo" alt="Brand" src="../image/logo.png">
+            </a>
+                    
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+         <a href="../index.html" id="name-logo"> <span> Lianjun Zheng </span> </a>
+          <ul id="nav-list" class="nav navbar-nav navbar-right">
+            <li class="text-center"><a target="_blank" href="../CV/CV_EllieZheng.pdf">CV</a></li>
+            <li class="text-center"><a href="../research.html">Research</a></li>
+            <li class="text-center"><a href="#">Teaching</a></li>
+            <li class="text-center"><a href="../app.html">Apps</a></li>
+            <li class="text-center"><a href="#">Life</a></li>
+            <li class="text-center"><a href="#">About</a></li>
+          </ul><!-- #nav-list -->
+        </div><!-- .collapse .navbar-collapse -->
+      </div>
+    </nav>
+  </header>
+
+  <div class="container">
+      <img class="visible-xs visible-sm visible-md visible-lg" width="100%" src="../image/tax_index_head.jpg">
+      <!-- <img class="visible-xxs" width="100%" src="../image/head-small.jpg"> -->
+      <div id="head-tax">
+        <h1>2017 Chinese F1 Tax Return</h1>
+      </div>
+  </div>
+
+  <div class="container">
+    <ol class="breadcrumb">
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="../app.html">Apps</a></li>
+      <li><a href="tax-return-index.html">2017 Chinese F1 Tax Return</a></li>
+      <li class="active">1040NR-EZ</li>
+    </ol>
+  </div>
+
+
+  <div class="container">
+    <div class="bs-callout" style="font-size: 1.2em;border-left-color: #ce4844;">
+    Download a <a href="f1040nre.pdf" target="_blank">blank 1040NR-EZ form here</a> and fill in the blanks according to the info generated from this page.
+    </div>
+    <form  class="form-horizontal" onsubmit="return calculate();">
+      <div class="bs-callout">
+        <p style="font-size: 1.5em;">W-2 info</p> <br>
+        <div class="form-group">
+          <label for="w2box1" class="col-sm-6 control-label">Box 1: Wages, tips, other compensation</label>
+          <input type="number" step="0.01" class="col-sm-6" id="w2box1" name="3_income" placeholder="Box 1">
+        </div>
+        <div class="form-group">
+          <label for="w2box2" class="col-sm-6 control-label">Box 2: Federal income tax withheld</label>
+          <input type="number" step="0.01" class="col-sm-6" id="w2box2" name="18a_federal_tax" placeholder="Box 2">
+        </div>
+        <div class="form-group">
+          <label for="w2box17" class="col-sm-6 control-label">Box 17: State income tax</label>
+          <input type="number" step="0.01" class="col-sm-6" id="w2box17" name="11_state_tax[]" placeholder="Box 17">
+        </div>
+      </div>
+
+      <div class="bs-callout">
+        <p style="font-size: 1.5em;">1042-S info</p> <br>
+        <div class="form-group">
+          <label for="sbox2" class="col-sm-6 control-label">Box 2: Gross income</label>
+          <input type="number" step="0.01" class="col-sm-6" id="sbox2" name="6_exempt[]" placeholder="Box 2">
+        </div>
+        <div class="form-group">
+          <label for="sbox7" class="col-sm-6 control-label">Box 7: Federal tax withheld</label>
+          <input type="number" step="0.01" class="col-sm-6" id="sbox7" name="18b_federal_tax[]" placeholder="Box 7">
+        </div>
+        <div class="form-group">
+          <label for="sbox21" class="col-sm-6 control-label">Box 21: State income withheld</label>
+          <input type="number" step="0.01" class="col-sm-6" id="sbox21" name="11_state_tax[]" placeholder="Box 21">
+        </div>
+        <div id="toBeAdded"></div>
+        <input type="button" name="add_1042S" value="Add another 1042-S form" class="btn btn-default" onclick="add1042S();"></input>
+      </div>
+      <div id="result"></div>
+
+      <button type="submit" class="btn btn-default">Submit</button>
+    </form>
+  </div>
+
+  <footer class="footer-panel">
+    <div class="container">
+      &copy;Copyright Lianjun Zheng 2017
+    </div>
+  </footer>
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="../js/jquery-1.11.3.min.js"></script>
+  <script src="../js/bootstrap.min.js"></script>
+  <script src="../js/script.js"></script>
+  <script src="1040NREZ.js"></script>
+</body>
+</html>
