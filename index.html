@@ -15,43 +15,8 @@
     <![endif]-->
   </head>
 <body>
-  <header>
-    <nav id="header-nav" class="navbar navbar-default navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-           <a class="navbar-brand" href="index.html">
-              <img id="logo" alt="Brand" src="image/logo.png">
-            </a>
-                    
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-        </div>
-        <div id="collapsable-nav" class="collapse navbar-collapse">
-          <ul id="nav-list" class="nav navbar-nav navbar-right">
-            <li class="text-center"><a target="_blank" href="CV/CV_EllieZheng.pdf">CV</a></li>
-            <li class="text-center"><a target="_blank" href="https://sites.google.com/site/elliezheng91/research">Research</a></li>
-            <li class="text-center"><a target="_blank" href="https://sites.google.com/site/elliezheng91/home">Teaching</a></li>
-            <li class="text-center"><a target="_blank" href="http://skyfalco.club/bbs/">Forum</a></li>
-            <li class="text-center"><a href="app.html">Apps</a></li>
-            <!-- <li class="text-center"><a href="#">About</a></li> -->
-          </ul><!-- #nav-list -->
-        </div><!-- .collapse .navbar-collapse -->
-      </div>
-    </nav>
-  </header>
-
-  <div class="container">
-      <img class="visible-xs visible-sm visible-md visible-lg" width="100%" src="image/head.jpg">
-      <img class="visible-xxs" width="100%" src="image/head-small.jpg">
-      <div id="head">
-        <h1 class="text-right">Lianjun Zheng <span>(Ellie)</span></h1>
-      </div>
-  </div>
-
+  <div id="header"></div> <!-- to be loaded from script.js-->
+  
   <div class="container">
     <div class="jumbotron">
       <img src="image/cover.jpg" width="100%" alt="Introduction of Ellie">
@@ -69,7 +34,7 @@
         </a>
       </section>
       <section class="pull-left col-lg-3 col-md-3 col-sm-4 col-xs-6 thumb-box">
-        <a target="_blank" href="https://sites.google.com/site/elliezheng91/research" class="thumbnail" id="research-tile">
+        <a href="research.html" class="thumbnail" id="research-tile">
             <div  class="tile">
               <div aria-hidden="true" class="glyphicon glyphicon-education gly-box"></div>
               <span class="bottom">Research</span>
@@ -140,7 +105,7 @@
             <a href="mailto:lianjunzheng.pku09@gmail.com">lianjunzheng.pku09@<wbr>gmail.com</wbr></a>
             <a href="mailto:lianjun.zheng@duke.edu">lianjun.zheng@duke.edu</a><br>
             <!-- Tel: <a href="tel:1-919-599-3341">+1 (919)-599-3341</a><br> -->
-            Address:<a target="_blank" href="https://goo.gl/maps/jZKgZwL2oJD2"> 5010 Garrett Rd Apt 634, Durham, NC, 27707</a>
+            Address: <a target="_blank" href="https://goo.gl/maps/7sgMmNsMe3n">5301 FFSC, 124 Science Dr, Durham, NC, 27708</a>
           </p>
         </div>
       </section>
@@ -158,11 +123,8 @@
     More to come!
   </div>
 
-  <footer class="footer-panel">
-    <div class="container">
-      &copy;Copyright Lianjun Zheng 2018
-    </div>
-  </footer>
+  <div id="footer"></div> <!-- to be loaded from script.js-->
+  
   <!-- jQuery (Bootstrap JS plugins depend on it) -->
   <script src="js/jquery-1.11.3.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
