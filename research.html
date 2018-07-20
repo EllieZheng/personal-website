@@ -14,43 +14,9 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-<body>
-  <header>
-    <nav id="header-nav" class="navbar navbar-default navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-           <a class="navbar-brand" href="index.html">
-              <img id="logo" alt="Brand" src="image/logo.png">
-            </a>
-                    
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-        </div>
-        <div id="collapsable-nav" class="collapse navbar-collapse">
-          <ul id="nav-list" class="nav navbar-nav navbar-right">
-            <li class="text-center"><a target="_blank" href="CV/CV_EllieZheng.pdf">CV</a></li>
-            <li class="text-center"><a target="_blank" href="https://sites.google.com/site/elliezheng91/research">Research</a></li>
-            <li class="text-center"><a target="_blank" href="https://sites.google.com/site/elliezheng91/home">Teaching</a></li>
-            <li class="text-center"><a target="_blank" href="http://skyfalco.club/bbs/">Forum</a></li>
-            <li class="text-center"><a href="app.html">Apps</a></li>
-            <!-- <li class="text-center"><a href="#">About</a></li> -->
-          </ul><!-- #nav-list -->
-        </div><!-- .collapse .navbar-collapse -->
-      </div>
-    </nav>
-  </header>
 
-  <div class="container">
-      <img class="visible-xs visible-sm visible-md visible-lg" width="100%" src="image/head.jpg">
-      <img class="visible-xxs" width="100%" src="image/head-small.jpg">
-      <div id="head">
-        <h1 class="text-right">Lianjun Zheng <span>(Ellie)</span></h1>
-      </div>
-  </div>
+<body>
+    <div id="header-common"></div> <!-- to be loaded from common/header-common.html -->
 
   <div class="container">
     <ol class="breadcrumb">
@@ -59,14 +25,33 @@
     </ol>
   </div>
   <div class="container">
-    This site is under construction...
+      <h3 class="text-center"><strong>Oscillator Strength Focusing</strong></h3>
+      <div class="bg-blue maintext">
+      <br>
+      <p style="font-family: Tahoma, Geneva, sans-serif">One of the projects I was working on is to enhance the light absorption of dye molecules used in solar energy conversion devices, which transform the excitation energy into energy stored in free carriers or chemical bonds. One example of such devices is dye-sensitized solar cells, like the scheme below: </p>
+      <br>
+      <div class="text-center"><img src="research/os_picture1.jpg" class="img-fluid" style="width: 500px; max-width: 100%; height: auto" alt="solar devices"></div>
+      <br>
+      <p>A quantity that evaluates their ability to absorb light at a certain wavelength is called oscillator strength, which is related to the absorbance in the spectra. The Thomas-Reiche-Kuhn (TRK) sum rule mandates that the integrated (electronic) oscillator strength of an absorber equals the total number of electrons in the structure. Typical molecular chromophores place only about 1% of their oscillator strength in the UV-vis window, so individual chromophores operate at about 1% of their theoretical limit. The distribution of the oscillator strength (or absorption) for a typical chromophore looks like the following: </p>
+      <br>
+      <div class="text-center"><img src="research/os_picture2.jpg" class="img-fluid" style="width: 320px; max-width: 100%; height: auto" alt="spectra"></div>
+      <br>
+      <p>Our ultimate goal is developing purposeful strategies to redistribute and focus oscillator strengths into specific excitation energy windows.</p>
+      <br>
+      <p>We have rationalized the low oscillator strength in the UV-vis spectral region in molecules by mapping how the oscillator strength in popular molecular absorbers is distributed over transitions to valence excited states, Rydberg states, and continuum states. Specific conclusions are summarized below:</p>
+      <br>
+      <div class="text-center"><img src="research/os_picture3.jpg" class="img-fluid" style="width: 350px; max-width: 100%; height: auto" alt="results"></div>
+      <br>
+      <p>We found that any electronic structure-based strategy for focusing oscillator strength into the UV-vis region must effectively shut down core-to-bound and &sigma;-to-continuum transitions. To perturb molecular electronic structure, such strategies might employ tailored electromagnetic fields, structural redesign of chromophores and chromophore assemblies, and tailored molecule-nanostructure assemblies. Even a modest focusing of the UV-vis oscillator strength, achieved via design, could dramatically increase the efficiency of current photovoltaic devices.</p>
+      <br>
+      <p>Details see: <span><a href="http://pubs.acs.org/doi/abs/10.1021/acs.jpca.6b00692"><em>J. Phys. Chem. A </em><strong>2016</strong>, 120, 1933-1943.</a></p>
+      <br>
+      <p><strong>More to come!</strong></p>
+      </div>
   </div>
 
-  <footer class="footer-panel">
-    <div class="container">
-      &copy;Copyright Lianjun Zheng 2016
-    </div>
-  </footer>
+  <div id="footer-common"></div> <!-- to be loaded from common/footer-common.html -->
+
   <!-- jQuery (Bootstrap JS plugins depend on it) -->
   <script src="js/jquery-1.11.3.min.js"></script>
   <script src="js/bootstrap.min.js"></script>

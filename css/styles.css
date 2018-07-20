@@ -232,6 +232,13 @@ blockquote {
   text-shadow: 2px 2px black;
 }
 
+/******* Research **********/
+.maintext {
+    font-size: 1.1em;
+    font-family: Tahoma, Geneva, sans-serif;
+    color: #4D4D4D;
+}
+
 .bs-callout {
     padding: 20px;
     margin: 20px 0;

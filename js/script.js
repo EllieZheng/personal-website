@@ -6,8 +6,14 @@ $( function(){ // == document.addEventListener("DOMContentLoaded"...)
 				$("#collapsable-nav").collapse('hide');
 			}
 	});
+	
+	// Load header
+	$(function(){
+		$("#header-common").load("common/header-common.html");
+		$("#footer-common").load("common/footer-common.html");
+	});
 });
 
 (function (global) {
-	
+
 })(window);
