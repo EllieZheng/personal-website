@@ -184,6 +184,14 @@ section .thumbnail:hover {
   background: url("../image/about-tile-hover.jpg") no-repeat;
   background-position: center;
 }
+#linkedin-tile {
+  background: url("../image/linkedin-tile.jpg") no-repeat;
+  background-position: center;
+}
+#linkedin-tile:hover {
+  background: url("../image/linkedin-tile-hover.jpg") no-repeat;
+  background-position: center;
+}
 /*
 #index {
   float: right;
