@@ -263,6 +263,9 @@ blockquote {
 .btn-default{
   font-size: 1.2em;
 }
+.padtop10 {
+  padding-top: 10px;
+}
 /*** Footer ***/
 .footer-panel {
   margin-top: 20px;
@@ -274,6 +277,29 @@ blockquote {
 
 .form-group {
   font-size: 1.2em;
+}
+/************** Go back to top ****************/
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  background-color: lightgrey;
+  color: black;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 4px;
+  opacity: 0.3;
+}
+
+#myBtn:hover {
+  opacity: 1;
+  background-color: dimgray;
+  color: white;
 }
 
 /************** Media Query ****************/

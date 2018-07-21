@@ -21,7 +21,8 @@ $( function(){ // == document.addEventListener("DOMContentLoaded"...)
 })(window);
 
 document.getElementById("footer").innerHTML =
-  "<footer class='footer-panel'>"
+  "<button onclick='topFunction()' id='myBtn' title='Go to top'>Top</button> "
+  + "<footer class='footer-panel'>"
   + "<div class='container'>"
   +   "&copy;Copyright Lianjun Zheng "+ new Date().getFullYear()
   + "</div>"
@@ -63,4 +64,22 @@ document.getElementById("header").innerHTML =
 + "        <h1 class='text-right'>Lianjun Zheng <span>(Ellie)</span></h1> "
 + "      </div> "
 + " </div>  ";
+
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
 
