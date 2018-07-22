@@ -434,8 +434,8 @@ table#education td {
     padding-left:   10px;
     padding-right:  10px;
   }
-  .dl-horizontal dt {
-      margin-top: 10px;
+  .dl-horizontal dd {
+    padding-bottom: 10px;
   }
 }
 
@@ -449,15 +449,17 @@ table#education td {
     width: 970px;
   }
 }
+@media (min-width: 992px) {
+  .whitebackcolor {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
 @media (min-width: 768px) {
   #head h1 {
     padding: 5px 10px 10px 10px;
     border-radius: 5px;
     background-color:rgba(50, 120, 0, 0.45);
-  }
-  .whitebackcolor {
-    padding-left: 50px;
-    padding-right: 50px;
   }
 }
 @media (min-width: 500px) and (max-width: 767px) {
