@@ -6,8 +6,8 @@ body {
   background: whitesmoke;
 }
 .whitebackcolor{
-  padding-left:   50px;
-  padding-right:  50px;
+  padding-left:   30px;
+  padding-right:  30px;
   padding-top:    15px;
   padding-bottom: 15px;
   background: white;
@@ -325,8 +325,9 @@ blockquote {
 .cv-section{
   /*color: black;*/
   font-size: large;
+  font-weight: 800;
   text-decoration: underline;
-  font-family: "Arial Black", Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .cv-italic {
   font-family: Georgia, Helvetica, sans-serif;
@@ -425,13 +426,16 @@ table#education td {
     display: none !important;
   }
   #myBtn {
-    font-size: 14px;
+    font-size: 16px;
     padding: 10px;
-    opacity: 0.3;
+    opacity: 0.6;
   }
   .whitebackcolor{
     padding-left:   10px;
     padding-right:  10px;
+  }
+  .dl-horizontal dt {
+      margin-top: 10px;
   }
 }
 
@@ -451,5 +455,21 @@ table#education td {
     border-radius: 5px;
     background-color:rgba(50, 120, 0, 0.45);
   }
+  .whitebackcolor {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
 }
-
+@media (min-width: 500px) and (max-width: 767px) {
+  .dl-horizontal dt {
+    float: left;
+    width: 100px;
+    overflow: hidden;
+    clear: left;
+    text-overflow: initial;
+    white-space: initial;
+  }
+  .dl-horizontal dd {
+    margin-left: 120px;
+  }
+}
