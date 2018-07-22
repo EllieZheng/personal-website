@@ -263,12 +263,6 @@ blockquote {
     color: #4D4D4D;
 }
 
-.dl-horizontal.dl-padding dt {
-  padding-top: 10px;
-}
-.dl-horizontal.dl-padding dd {
-  padding-top: 10px;
-}
 .bs-callout {
     padding: 20px;
     margin: 20px 0;
@@ -335,7 +329,15 @@ blockquote {
   font-size: 1.06em;
   margin-bottom: 5px;
 }
-
+#publication p {
+  margin-top: 20px;
+}
+.dl-horizontal.dl-padding dt {
+  padding-top: 10px;
+}
+.dl-horizontal.dl-padding dd {
+  padding-top: 10px;
+}
 .dl-alignright dt{
   font-weight: initial;
   margin-bottom: 5px;
@@ -361,20 +363,13 @@ dd.nomargin p{
     clear: left;
     text-align: left;
     text-overflow: ellipsis;
-    white-space: nowrap;
+    white-space: initial;
   }
   .dl-alignright dd {
     margin-left: 180px;
   }
 }
-table#education {
-  line-height: 1.2;
-}
-table#education td {
-  padding-right: 15px;
-  padding-bottom: 5px;
-  vertical-align: top;
-}
+
 
 /************** Media Query ****************/
 .visible-xxs {
@@ -437,6 +432,13 @@ table#education td {
   .dl-horizontal dd {
     padding-bottom: 10px;
   }
+  .dl-horizontal.dl-padding dd {
+    padding-top: 0px
+  }
+  #school {
+    font-family: Georgia;
+    font-style: italic;
+  }
 }
 
 @media (max-width: 400px) {
@@ -468,7 +470,7 @@ table#education td {
     width: 100px;
     overflow: hidden;
     clear: left;
-    text-overflow: initial;
+    text-overflow: ellipsis;
     white-space: initial;
   }
   .dl-horizontal dd {
