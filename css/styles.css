@@ -424,12 +424,15 @@ table#education td {
   .visible-xs {
     display: none !important;
   }
-#myBtn {
-  font-size: 14px;
-  padding: 10px;
-  opacity: 0.3;
-}
-
+  #myBtn {
+    font-size: 14px;
+    padding: 10px;
+    opacity: 0.3;
+  }
+  .whitebackcolor{
+    padding-left:   10px;
+    padding-right:  10px;
+  }
 }
 
 @media (max-width: 400px) {
