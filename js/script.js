@@ -25,6 +25,7 @@ document.getElementById("footer").innerHTML =
   + "<footer class='footer-panel'>"
   + "<div class='container'>"
   +   "&copy;Copyright Lianjun Zheng "+ new Date().getFullYear()
+  +   ". Source code available at <a target='_blank' href='https://github.com/EllieZheng/personal-website'>GitHub</a>."
   + "</div>"
   +"</footer>";
   
@@ -46,7 +47,7 @@ document.getElementById("header").innerHTML =
 + "        </div> "
 + "        <div id='collapsable-nav' class='collapse navbar-collapse'> "
 + "          <ul id='nav-list' class='nav navbar-nav navbar-right'> "
-+ "            <li class='text-center'><a target='_blank' href='CV/CV_EllieZheng.pdf'>CV</a></li> "
++ "            <li class='text-center'><a href='CV.html'>CV</a></li> "
 + "            <li class='text-center'><a href='research.html'>Research</a></li> "
 + "            <li class='text-center'><a target='_blank' href='https://sites.google.com/site/elliezheng91/home'>Teaching</a></li> "
 + "            <li class='text-center'><a target='_blank' href='https://www.linkedin.com/in/lianjun-zheng-2597a495/'>LinkedIn</a></li> "
