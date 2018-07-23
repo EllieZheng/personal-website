@@ -49,9 +49,9 @@ document.getElementById("header").innerHTML =
 + "          <ul id='nav-list' class='nav navbar-nav navbar-right'> "
 + "            <li class='text-center'><a href='CV.html'>CV</a></li> "
 + "            <li class='text-center'><a href='research.html'>Research</a></li> "
-+ "            <li class='text-center'><a target='_blank' href='https://sites.google.com/site/elliezheng91/home'>Teaching</a></li> "
-+ "            <li class='text-center'><a target='_blank' href='https://www.linkedin.com/in/lianjun-zheng-2597a495/'>LinkedIn</a></li> "
++ "            <li class='text-center'><a href='teaching.html'>Teaching</a></li> "
 + "            <li class='text-center'><a href='app.html'>Apps</a></li> "
++ "            <li class='text-center'><a target='_blank' href='https://www.linkedin.com/in/lianjun-zheng-2597a495/'>LinkedIn</a></li> "
 + "            <!-- <li class='text-center'><a href='#'>About</a></li> --> "
 + "          </ul><!-- #nav-list --> "
 + "        </div><!-- .collapse .navbar-collapse --> "
@@ -83,4 +83,29 @@ function topFunction() {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
 }
+
+
+// Tabs
+$(function () {
+    $('#teachingTab a:first').tab('show');
+    if (/teachingEx/.test(window.location)) {
+        $('#teachingTab a[href="#teachingEx"]').tab('show');
+    }
+    if (/certificate/.test(window.location)) {
+        $('#teachingTab a[href="#certificate"]').tab('show');
+    }
+    if (/statement/.test(window.location)) {
+        $('#teachingTab a[href="#statement"]').tab('show');
+    }
+})
+/*$('#teachingTab a').click(function (e) {
+    e.preventDefault();
+    $(this).tab('show');
+})*/
+/*
+$('a[data-toggle="tab"]').on('shown', function (e) {
+    e.target // activated tab
+    e.relatedTarget // previous tab
+})
+*/
 

@@ -329,7 +329,7 @@ blockquote {
   font-size: 1.06em;
   margin-bottom: 5px;
 }
-#publication p {
+.extra-margin-top p {
   margin-top: 20px;
 }
 .dl-horizontal.dl-padding dt {
@@ -370,7 +370,58 @@ dd.nomargin p{
   }
 }
 
+/************** Teaching Tabs****************/
+#teachingTab a {
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+.nav-tabs > li > a {
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-right: 2px;
+}
 
+/***From Responsive**/
+.nav-collapse .nav > .divider-vertical {
+  display: none;
+}
+.nav-collapse .dropdown-menu .divider {
+  display: none;
+}
+.divider-vertical {
+  height: 40px;
+  margin: 0 4px;
+  border-right: 1px solid #ffffff;
+  border-left: 1px solid #f2f2f2;
+}
+.navbar-inverse .divider-vertical {
+  border-right-color: #222222;
+  border-left-color: #111111;
+}
+
+
+blockquote {
+  font-size: inherit;
+  font-family: Helvetica, Arial, sans-serif;
+}
+.longtexts p {
+  font-size: 1.1em;
+  font-family: Helvetica, sans-serif;
+  color: #5A5A5A;
+}
+.longtexts strong {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: 700;
+  color: #2F2F2F;
+}
+.strong-par {
+  color: #2b2823;
+  font-family: Georgia, Helvetica, sans-serif;
+  font-weight: 900;
+  font-size: 1.1em
+}
 /************** Media Query ****************/
 .visible-xxs {
   display: none;
@@ -477,3 +528,4 @@ dd.nomargin p{
     margin-left: 120px;
   }
 }
+
