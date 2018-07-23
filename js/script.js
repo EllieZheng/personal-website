@@ -51,6 +51,7 @@ document.getElementById("header").innerHTML =
 + "            <li class='text-center'><a href='research.html'>Research</a></li> "
 + "            <li class='text-center'><a href='teaching.html'>Teaching</a></li> "
 + "            <li class='text-center'><a href='app.html'>Apps</a></li> "
++ "            <li class='text-center'><a href='hobbies.html'>Hobbies</a></li> "
 + "            <li class='text-center'><a target='_blank' href='https://www.linkedin.com/in/lianjun-zheng-2597a495/'>LinkedIn</a></li> "
 + "            <!-- <li class='text-center'><a href='#'>About</a></li> --> "
 + "          </ul><!-- #nav-list --> "

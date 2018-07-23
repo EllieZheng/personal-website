@@ -33,11 +33,11 @@
         <div id="collapsable-nav" class="collapse navbar-collapse">
          <a href="../index.html" id="name-logo"> <span> Lianjun Zheng </span> </a>
           <ul id="nav-list" class="nav navbar-nav navbar-right">
-            <li class="text-center"><a target="_blank" href="CV/CV_EllieZheng.pdf">CV</a></li>
-            <li class="text-center"><a target="_blank" href="https://sites.google.com/site/elliezheng91/research">Research</a></li>
-            <li class="text-center"><a target="_blank" href="https://sites.google.com/site/elliezheng91/home">Teaching</a></li>
-            <li class="text-center"><a target="_blank" href="http://skyfalco.club/bbs/">Forum</a></li>
-            <li class="text-center"><a href="app.html">Apps</a></li>
+            <li class='text-center'><a href='CV.html'>CV</a></li>
+            <li class='text-center'><a href='research.html'>Research</a></li>
+            <li class='text-center'><a href='teaching.html'>Teaching</a></li>
+            <li class='text-center'><a href='app.html'>Apps</a></li>
+            <li class='text-center'><a target='_blank' href='https://www.linkedin.com/in/lianjun-zheng-2597a495/'>LinkedIn</a></li>
             <!-- <li class="text-center"><a href="#">About</a></li> -->
           </ul><!-- #nav-list -->
         </div><!-- .collapse .navbar-collapse -->
@@ -64,8 +64,9 @@
 
 
   <div class="container">
+  <div class="whitebackcolor">
     <div class="bs-callout" style="font-size: 1.2em;border-left-color: #ce4844;">
-    Download a <a href="f1040nre.pdf" target="_blank">blank 1040NR-EZ form here</a> and fill in the blanks according to the info generated from this page.
+    Download a <a href="https://www.irs.gov/pub/irs-pdf/f1040nre.pdf" target="_blank">blank 1040NR-EZ form here</a> and fill in the blanks according to the info generated from this page.
     </div>
     <form  class="form-horizontal" onsubmit="return calculate();">
       <div class="bs-callout">
@@ -106,12 +107,10 @@
       <button type="submit" class="btn btn-default">Submit</button>
     </form>
   </div>
+  </div>
 
-  <footer class="footer-panel">
-    <div class="container">
-      &copy;Copyright Lianjun Zheng 2017
-    </div>
-  </footer>
+  <div id="footer"></div> <!-- to be loaded from script.js-->
+
   <!-- jQuery (Bootstrap JS plugins depend on it) -->
   <script src="../js/jquery-1.11.3.min.js"></script>
   <script src="../js/bootstrap.min.js"></script>

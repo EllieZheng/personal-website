@@ -422,6 +422,27 @@ blockquote {
   font-weight: 900;
   font-size: 1.1em
 }
+
+/*********** Hobbies ***************/
+.media-heading {
+    font-weight: bold;
+    font-size: 1.1em;
+}
+.media-body p {
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+video {
+  width: 100%;
+  height: auto;
+}
+.chinese {
+  font-family: "Microsoft YaHei UI", SimSun;
+}
+h4.chinese {
+  font-family: "Microsoft YaHei UI", SimSun;
+  font-weight: bold;
+}
 /************** Media Query ****************/
 .visible-xxs {
   display: none;
