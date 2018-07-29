@@ -533,7 +533,7 @@ h4.chinese {
   #head h1 {
     padding: 5px 10px 10px 10px;
     border-radius: 5px;
-    background-color:rgba(50, 120, 0, 0.45);
+    /*background-color:rgba(50, 120, 0, 0.45);*/
   }
 }
 @media (min-width: 500px) and (max-width: 767px) {
