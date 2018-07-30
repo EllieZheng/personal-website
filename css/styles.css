@@ -371,6 +371,7 @@ dd.nomargin p{
 }
 
 /************** Teaching Tabs****************/
+#coursesTab a,
 #teachingTab a {
   font-family: Helvetica, Arial, sans-serif;
   font-weight: bold;
